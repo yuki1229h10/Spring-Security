@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class BalanceController {
 
 	@GetMapping("/myBalance")
-	public String sayWelcome() {
-		return "Welcome to Spring Application with security";
+	public String getBalanceDetails() {
+		return "Here are the balance details from the DB";
 	}
 }
