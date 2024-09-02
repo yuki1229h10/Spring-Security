@@ -37,5 +37,4 @@ public class EazyBankProdUsernamePwdAuthenticationProvider implements Authentica
 	public boolean supports(Class<?> authentication) {
 		return (UsernamePasswordAuthenticationToken.class.isAssignableFrom(authentication));
 	}
-
 }
